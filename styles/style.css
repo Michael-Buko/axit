@@ -1,0 +1,219 @@
+/* Reset styles
+=====================================================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BASE
+=====================================================================================*/
+
+.wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    font: 400 14px 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 78%;
+    margin: 0 auto;
+}
+
+/* Header
+=====================================================================================*/
+
+.header {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 30px;
+    font: 400 36px 'Raleway', sans-serif;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background: #E72424;
+    border: none;
+}
+
+.subtitle {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+    font: 400 14px 'Open Sans', sans-serif;
+    color: #86878B;
+}
+
+/* Main
+=====================================================================================*/
+
+.main {
+    padding-top: 30px;
+}
+
+.card {
+    display: inline-block;
+    width: 350px;
+    min-height: 225px;
+    padding-bottom: 60px;
+    margin: 0 5px 0 5px;
+    vertical-align: top;
+}
+
+.card-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 30px;
+    border-radius: 50%;
+    border: 1px solid #E72424;
+}
+
+.lamp {
+    background: url(../assets/lamp.png) no-repeat center;
+}
+
+.keyboard {
+    background: url(../assets/keyboard.png) no-repeat center;
+}
+
+.flash {
+    background: url(../assets/flash.png) no-repeat center;
+}
+
+.card-title {
+    margin-bottom: 16px;
+    text-align: center;
+    font: 700 20px 'Open Sans', sans-serif;
+    color: #333333;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.download {
+    height: 325px;
+    padding-top: 75px;
+    background: url(../assets/town-bottom.jpg) no-repeat center rgba(0, 0, 0, 0.65);
+    background-blend-mode: multiply;
+}
+
+.download-title {
+    margin-bottom: 50px;
+    text-align: center;
+    font: 400 36px 'Raleway', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.download-line {
+    width: 64px;
+    height: 2px;
+    margin: 0 auto 30px;
+    background: #FFFFFF;
+    border: none;
+}
+
+.download-text {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    font: 300 16px 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.download-form {
+    text-align: center;
+}
+
+.download-button {
+    width: 135px;
+    height: 42px;
+    margin-bottom: 30px;
+    font: 600 15px 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background: rgba(0, 0, 0, 0.65);
+}
+
+/* Footer
+=====================================================================================*/
+
+.footer {
+    padding-top: 30px;
+    background-color: #000000;
+}
+
+.footer-socnet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 317px;
+    height: 23px;
+    margin: 0 auto 15px;
+}
+
+/* Sprites
+=====================================================================================*/
+.a-socnet {
+    height: 23px;
+    background: url(../assets/socnet.png);
+}
+
+.footer-facebook {
+    width: 12px;
+    background-position: left;
+}
+
+.footer-twitter {
+    width: 20px;
+    background-position: -44px;
+}
+
+.footer-google {
+    width: 22px;
+    background-position: -95px;
+}
+
+.footer-pinterest {
+    width: 21px;
+    background-position: -141px;
+}
+
+.footer-instagram {
+    width: 22px;
+    background-position: -191px;
+}
+
+.footer-stumbleupon {
+    width: 27px;
+    background-position: -242px;
+}
+
+.footer-rss {
+    width: 19px;
+    background-position: -298px;
+}
+
+.copyright {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font: 400 12px 'Open Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 15px;
+}
